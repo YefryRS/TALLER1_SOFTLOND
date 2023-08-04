@@ -8,9 +8,8 @@ public class Ejercicio5 {
         System.out.println("Escribe el primer numero entero");
         int usuario1 = consola.nextInt();
 
-        Scanner consola2 = new Scanner(System.in);
         System.out.println("Escribe el segundo numero entero");
-        int usuario2 = consola2.nextInt();
+        int usuario2 = consola.nextInt();
 
         if(usuario1 > usuario2) {
             System.out.println("el numero " + usuario1 + " es mayor al numero " + usuario2);

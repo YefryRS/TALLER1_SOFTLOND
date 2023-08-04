@@ -15,7 +15,7 @@ public class Ejercicio8 {
         if(numeroUsuario > numeroRamdon) {
             System.out.println("El numero " + numeroUsuario + " es mayor al numero " + numeroRamdon);
         } else if (numeroRamdon > numeroUsuario) {
-            System.out.println("El numero " + numeroRamdon + " es mayor al numero " + numeroUsuario);
+            System.out.println("El numero " + numeroUsuario + " es menor al numero " + numeroRamdon);
         } else {
             System.out.println("Ambos numero son iguales");
         }

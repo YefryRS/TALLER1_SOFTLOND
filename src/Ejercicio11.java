@@ -8,13 +8,11 @@ public class Ejercicio11 {
         System.out.println("Ingresa la longitud del lado 1");
         double lado1 = scanner.nextDouble();
 
-        Scanner scanner2 = new Scanner(System.in);
         System.out.println("Ingresa la longitud del lado 2");
-        double lado2 = scanner2.nextDouble();
+        double lado2 = scanner.nextDouble();
 
-        Scanner scanner3 = new Scanner(System.in);
         System.out.println("Ingresa la longitud del lado 3");
-        double lado3 = scanner3.nextDouble();
+        double lado3 = scanner.nextDouble();
 
         double perimetro = (lado1+lado2+lado3)/2;
 
